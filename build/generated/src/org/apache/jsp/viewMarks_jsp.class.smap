@@ -1,0 +1,16 @@
+SMAP
+viewMarks_jsp.java
+JSP
+*S JSP
+*F
++ 0 viewMarks.jsp
+viewMarks.jsp
+*L
+1,34:49
+34,8:83
+42:91,3
+43:94
+44:95,3
+45,9:98
+53,3:107
+*E

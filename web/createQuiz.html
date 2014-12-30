@@ -1,0 +1,44 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body bgcolor='#5B4CFF'>
+        <img src="images/background.png" alt="hpc logo" height="136" width="800" />
+        <table border="1" cellpadding="20" cellspacing="10" align="center">
+    <tr>
+        <td><a href="createQuiz.html"><h3>Quiz Creation</h3></a></td>
+        <td><a href="insertAnswers.html"><h3>Answers Insertion</h3></a></td>
+        <td><a href="viewMarks.jsp"><h3>View Marks</h3></a></td>
+    </tr>
+</table>
+    <center>
+        <form name="quiz" action="createQuiz1.jsp" method="POST">
+            Quiz Id<input type="text" name="quizId" size="5" />
+            <br />
+            Quiz Topic<input type="text" name="quizTopic" value="" size="30" />
+            <br />
+            Question<input type="text" name="q" value="" size="50" />
+            <br />
+            Option<input type="text" name="a1" value="" size="50" />
+            <br />
+            Option<input type="text" name="a2" value="" size="50" />
+            <br />
+            Option<input type="text" name="a3" value="" size="50" />
+            <br />
+            Option<input type="text" name="a4" value="" size="50" />
+            <br />
+            <input type="radio" name="nextQuestionOrNot" value="1" />Another Question
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="nextQuestionOrNot" value="0" />Quiz Creation Finished
+            <br />
+            <input type="submit" value="Submit the Quiz" name="submit" />
+        </form>
+    </center>
+    </body>
+</html>
